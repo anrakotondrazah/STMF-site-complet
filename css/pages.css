@@ -621,6 +621,35 @@
   justify-content: center;
 }
 
+/* ── WHO-CTA : bouton sous les value-pills ── */
+.who-cta {
+  margin-top: 2rem;
+  padding-top: 1.75rem;
+  border-top: 1px solid var(--g-border);
+}
+
+/* ── IDENTITY-CARD : cartes "Notre identité" (a-propos) ── */
+.identity-card {
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.identity-card__icon { flex-shrink: 0; }
+.identity-card__title {
+  font-family: var(--ff-display);
+  font-size: var(--ts-base);
+  font-weight: 600;
+  color: var(--c-white);
+  margin-bottom: 0.375rem;
+}
+.identity-card__desc {
+  font-size: var(--ts-sm);
+  color: var(--c-text-sec);
+  line-height: 1.5;
+  margin: 0;
+}
+
 /* ═══════════════════════════════════════════════
    RESPONSIVE — PAGES
 ═══════════════════════════════════════════════ */
