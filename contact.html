@@ -213,7 +213,7 @@
           <div class="glass-card contact-form-wrap" data-reveal="right">
             <h2 style="font-size:var(--ts-2xl);margin-bottom:0.5rem;">Envoyez-nous un message</h2>
             <p style="font-size:var(--ts-sm);color:var(--c-text-muted);margin-bottom:2rem;">
-              Les champs marqués <span style="color:var(--c-red);">*</span> sont obligatoires.
+              Les champs marqués <span class="required-star">*</span> sont obligatoires.
             </p>
 
 
@@ -225,7 +225,7 @@
               aria-label="Formulaire de contact STMF"
             >
               <!-- Honeypot anti-spam (caché aux utilisateurs, visible aux bots) -->
-              <input type="text" name="_honey" style="display:none;" tabindex="-1" autocomplete="off" aria-hidden="true" />
+              <input type="text" name="_honey" class="honeypot-field" tabindex="-1" autocomplete="off" aria-hidden="true" />
               <!-- Redirection Formspree désactivée (on gère via JS) -->
               <input type="hidden" name="_next" value="" />
 
