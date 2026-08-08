@@ -717,6 +717,22 @@ textarea.form-control {
   height: 1rem;
 }
 
+/* Honeypot anti-spam — sans inline style (évite le carré blanc) */
+.honeypot-field {
+  display: none !important;
+  visibility: hidden;
+  position: absolute;
+  left: -9999px;
+  width: 0;
+  height: 0;
+}
+
+/* Astérisque champ obligatoire */
+.required-star { color: var(--c-red); }
+
+/* Bouton CTA dans l'overlay mobile */
+.nav-overlay-cta { margin-top: 2rem; }
+
 /* ═══════════════════════════════════════════════
    LOADER spinner (form submit)
 ═══════════════════════════════════════════════ */
